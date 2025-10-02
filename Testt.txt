@@ -6890,6 +6890,8 @@ addcmd('serverinfo',{'info','sinfo'},function(args, speaker)
     wait(1)
 until SINFOGUI.Parent == nil
 
+end) 
+end) 
 addcmd("jobid", {}, function(args, speaker)
     toClipboard("roblox://placeId=" .. PlaceId .. "&gameInstanceId=" .. JobId)
 end)
@@ -13158,4 +13160,5 @@ task.spawn(function()
 	Credits:Destroy()
 	IntroBackground:Destroy()
 	minimizeHolder()
+
 end)
